@@ -43,7 +43,7 @@ fi
 #check it using the command "sensors"
 
 speed=$(speedtest-cli | grep Download | awk '{print $2}')
-#this line gets the speed of the internet from he command speedtest-cli and assigns it to the variable speed
+#this line gets the speed of the internet from the command speedtest-cli and assigns it to the variable speed
 #speedtest-cli command measures the speed of the internet
 #grep command searches for the line that contains the string download.
 #awk command prints the second field of the line which is the download speed.
